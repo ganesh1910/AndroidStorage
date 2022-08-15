@@ -1,3 +1,8 @@
 package com.gktech.androidstorage
 
-data class InternalStoragePhoto()
+import android.graphics.Bitmap
+
+data class InternalStoragePhoto(
+    val name: String,
+    val bmp: Bitmap
+)
